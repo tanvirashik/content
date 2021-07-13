@@ -1,0 +1,28 @@
+/* .br{
+    border-bottom:1px solid darkgray;
+    border
+} */
+.br{
+    border-radius: 10px;
+    margin:0 auto;
+}
+.brt{
+    border-radius: 10px;
+    margin:0 auto;
+}
+img{
+    width:30%;
+    margin:0 auto;
+    display:block;
+}
+.img img{
+    width:30%;
+    overflow: hidden;
+}
+.tb{
+    margin-top:235px;
+}
+.figure img{
+    width:50%;
+    margin-left:0;
+}

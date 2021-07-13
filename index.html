@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Content</title>
+  </head>
+  <body>
+      <section>
+          <div class="container">
+              <h2 class="text-center text-success">Form</h2>
+              <!-- form -->
+              <form class="w-75 border p-3 br">
+                  <div class="mb-3">
+                      <label for="email1" class="form-label">Email address</label>
+                      <input type="email" name="email" id="email1" class="form-control email1" aria-describedat="emailhelf">
+                      <div class="form-text" id="emailhelf">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                      <label for="password1" class="form-label">Password</label>
+                      <input type="password" id="password1" name="password" class="form-control password1">
+                  </div>
+                  <div class="mb-3">
+                      <label for="textaira" class="form-label">Example textarea</label>
+                      <textarea name="textarea" class="form-control" id="textaira" cols="30" rows="3"></textarea>
+                  </div>
+                  <div class="mb-3">
+                      <label for="fileimg" class="form-label">Default file input example</label>
+                      <input type="file" id="fileimg" class="form-control" name="file">
+                  </div>
+                  <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="checkboxx">
+                      <label for="checkboxx" class="form-check-label">Check me out</label>
+                  </div>
+                  <button class="submit btn btn-primary">Submit</button>
+              </form>
+              <!-- form 2 -->
+              <form action class="mt-4 w-75 border p-3 brt">
+                <div class="input-group mb-3 ">
+                    <span class="input-group-text" id="basic1">@</span>
+                    <input type="text" class="form-control" placeholder="username" name="username">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Recipient's username" name="recipient">
+                    <span class="input-group-text" id="basic2">@example.co</span>
+                </div>
+                <label for="basic-url" class="form-label">Your vanity URL</label>
+                <div class="input-group mb-3">
+                   <span class="input-group-text" id="basic3">https://example.com/users/</span>
+                   <input type="text" class="form-control">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">$</span>
+                    <input type="text" class="form-control"required>
+                    <span class="input-group-text">.00</span>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="username" id="username">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control is-invalid" placeholder="server" id="server">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">With textarea</span>
+                    <textarea class="form-control" id="textarea"></textarea>
+                </div>
+            </form>
+            <!-- form-3 -->
+            <form action class="row g-3 mt-4 p-2 border w-75 brt">
+                <div class="col-md-4">
+                    <label for="fastname" class="form-label">Fast Name</label>
+                    <input type="text" id="fastname" class="form-control is-valid f-name" value="mark" >
+                    <div class="valid-feedback">
+                        Look's good!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="fastname" class="form-label">Last Name</label>
+                    <input type="text" id="fastname" class="form-control is-valid f-name" value="Otto" >
+                    <div class="valid-feedback">
+                        Look's good!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="fastname" class="form-label">Fast Name</label>
+                    <span></span>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text">@</span>
+                        <input type="text" class="form-control is-invalid">
+                        <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                    </div>
+                </div>
+            </form>
+          </div>
+      </section>
+      <!-- form-end -->
+      <section class="content">
+          <div class="container">
+            <h2 class="mt-4 text-center text-success">Content</h2>
+            <div class="display-1">Display one</div>
+            <div class="display-2">Display two</div>
+            <h1>.h1 heading 1</h1>
+            <h2>.h2 heading 2</h2>
+            For example, <code>&lt;section&gt;</code>  should be wrapped as inline.
+            <P>Lorem ipsum dolor sit amet consectetur <kbd>tanvir ashik</kbd> adipisicing elit. Minus, pariatur.</P>
+            <samp>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quo.</samp>
+            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <small class="text-muted"> Optio repellat ratione nostrum </small>consequatur possimus nobis.
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, cum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <mark class="bg-warning">Cupiditate</mark> , repellendus.</p>
+            <p><del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, unde.</del></p>
+            <p><s>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, totam!</s></p>
+            <p><ins>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, aperiam.</ins></p>
+            <p><u>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, architecto.</u></p>
+            <p><small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, voluptate.</small></p>
+            <p><strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, dolor?</strong></p>
+            <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aut..</em></p>
+            <figure class="text-center">
+                <blockquote class="blockquote">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    Someone famous in <cite title="Source Title">Source Title</cite>
+                </figcaption>
+            </figure>
+            <!-- images -->
+            <img src="img/lp.jpg" class="img-fluid" alt="laptop">
+            <img src="img/lp2.jpg" class="img-thumbnail mt-4" alt="laptop">
+            <div class="img">
+                <img src="img/pexel2.jpg" class="img-fluid mt-4 rounded float-start" alt="laptop">
+                <img src="img/pexel2.jpg" class="img-fluid mt-4 rounded float-end" alt="laptop">
+             </div>
+             <h2 class="text-center text-success tb">Table</h2>
+             <table class="table text-center mx-auto w-75">
+                 <tr class="border-dark">
+                     <th>Class</th>
+                     <th>Heading</th>
+                     <th>Heading</th>
+                 </tr>
+                 <tr>
+                     <th>Default</th>
+                     <td>Cell</td>
+                     <td>Cell</td>
+                 </tr>
+                 <tr class="bg-primary">
+                    <th>Primary</th>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+                <tr class="bg-secondary">
+                    <th>Secondary</th>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+                <tr class="bg-success">
+                    <th>Success</th>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+                <tr class="bg-danger">
+                    <th>Danger</th>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+                <tr class="bg-warning">
+                    <th>Warning</th>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+                <tr class="bg-info">
+                    <th>Info</th>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+                <tr class="bg-light">
+                    <th>Light</th>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+                <tr class="bg-dark text-light">
+                    <th>Dark</th>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+             </table>
+             <!-- table-1 -->
+             <table class="table table-bordered table-dark table-striped table-hover mx-auto w-75">
+                 <tr>
+                     <th>#</th>
+                     <th>First</th>
+                     <th>Last</th>
+                     <th>Handle</th>
+                 </tr>
+                 <tr>
+                     <th>1</th>
+                     <td>Mark</td>
+                     <td>Otto</td>
+                     <td>@mdo</td>
+                 </tr>
+                 <tr>
+                    <th>2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Larry the Bird</td>
+                    <td>Otto</td>
+                    <td>@twitter</td>
+                </tr>
+             </table>
+             <!-- table-end -->
+             <figure class="figure">
+                <img src="img/pexel2.jpg" class="figure-img img-fluid rounded" alt="laptop">
+                <figcaption class="figure-caption ">A caption for the above image.</figcaption>
+             </figure>
+          </div>
+      </section>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
